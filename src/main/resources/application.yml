@@ -1,0 +1,31 @@
+#server:
+#  port: 8099
+#spring:
+#  data:
+#    mongodb:
+#      database: moviestore
+#      uri: mongodb://localhost:27017
+#  profiles:
+#    default: default
+#
+#
+##Spring MySQL Configuration
+#spring:
+##  mvc:
+##    pathmatch:
+##      matching-strategy: ant-path-matcher
+#  application:
+#    name: Infinity Movie
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/moviestore
+#    username: root
+#    password:
+#    dbcp2:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#
+#
+#  jpa:
+#    database: MYSQL
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
